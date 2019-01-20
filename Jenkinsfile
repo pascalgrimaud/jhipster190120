@@ -39,7 +39,7 @@ node {
             } catch(err) {
                 throw err
             } finally {
-                junit '**/target/test-results/jest/TESTS-*.xml'
+                junit '**/target/test-results/TESTS-*.xml'
             }
         }
 
