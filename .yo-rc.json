@@ -1,0 +1,38 @@
+{
+    "generator-jhipster": {
+        "promptValues": {
+            "packageName": "io.github.pascalgrimaud",
+            "nativeLanguage": "en"
+        },
+        "jhipsterVersion": "5.7.2",
+        "applicationType": "monolith",
+        "baseName": "jhipster190120",
+        "packageName": "io.github.pascalgrimaud",
+        "packageFolder": "io/github/pascalgrimaud",
+        "serverPort": "8080",
+        "authenticationType": "jwt",
+        "cacheProvider": "ehcache",
+        "enableHibernateCache": true,
+        "websocket": false,
+        "databaseType": "sql",
+        "devDatabaseType": "h2Disk",
+        "prodDatabaseType": "mysql",
+        "searchEngine": false,
+        "messageBroker": false,
+        "serviceDiscoveryType": false,
+        "buildTool": "maven",
+        "enableSwaggerCodegen": false,
+        "jwtSecretKey": "OTY5YmJlMjRhZDVjNzQxZGIyYjFlNjkzYjYxZDM0YzQ3MGFiMmNhZTE2NzZmMzBjN2YxOWU3YmQxYjViNzg2Yzc5OWMyYjAwMDFiMzBlYTY2MTEyY2IwZjU5MGZiNTQ2N2NjOGE3MWNmMTE4OTdiNGI0NjUzNDQ3NmFmZTcyNDE=",
+        "clientFramework": "angularX",
+        "useSass": true,
+        "clientPackageManager": "npm",
+        "testFrameworks": [],
+        "jhiPrefix": "jhi",
+        "entitySuffix": "",
+        "dtoSuffix": "DTO",
+        "otherModules": [],
+        "enableTranslation": true,
+        "nativeLanguage": "en",
+        "languages": ["en"]
+    }
+}
