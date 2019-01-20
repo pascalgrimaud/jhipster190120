@@ -5,7 +5,7 @@ node {
         checkout scm
     }
 
-    docker.image('jhipster/jhipster:v5.7.2').inside('-u jhipster -w /home/jhipster/app/ -e MAVEN_OPTS="-Duser.home=./"') {
+    docker.image('jhipster/jhipster:v5.7.2').withRun('-u jhipster -w /home/jhipster/app/') {
         stage('check java') {
             sh "java -version"
         }
